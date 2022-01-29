@@ -1,5 +1,5 @@
 
-</head>
+
 <body>
     <h1>Hey Guys! Welcome to Dhanno's Personal Webpage</h1>
     <hr><hr>
@@ -16,4 +16,4 @@
 
     <p>P.S. Soon I will upload some good resources regarding entrepreneurship.</p>
 </body>
-</html>
+
