@@ -42,7 +42,35 @@
 
     <header class="page-header" role="banner">
       <h1 class="project-name">From a Startup to Business</h1>
-      <h2 class="project-tagline">Hey Guys, welcome to Dhanno's Personal Webpage</h2>
+      <div class="container"><div class="typed-out">Hey Guys, welcome to Dhanno's Personal Webpage</div></div>
+
+    <style>
+        body{ 
+    }
+    .container{
+        display: inline-block;
+    }
+    .typed-out{
+        overflow: hidden;
+        border-right: .30em solid orange;
+        border-radius: 4px;
+        white-space: nowrap;
+        animation: 
+          typing 1s steps(20, end) forwards,
+          blinking 2s infinite;
+        font-size: 1.6rem;
+        width: 0;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    @keyframes blinking {
+      from { border-color: transparent }
+      to { border-color: rgb(255, 81, 0); }
+    }
+    </style>
+      
       
         <!-- <a href="https://github.com/nanonine2460/edc_work" class="btn">View on GitHub</a> -->
       
