@@ -1,0 +1,26 @@
+
+    .thick {
+        font-weight: bold;
+          }
+          .container{
+              display: inline-block;
+          }
+          .typed-out{
+              overflow: hidden;
+              border-right: .30em solid orange;
+              border-radius: 4px;
+              white-space: nowrap;
+              animation: 
+                typing 2s steps(20, end) forwards,
+                blinking 1s infinite;
+              font-size: 1.6rem;
+              width: 0;
+          }
+          @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+          }
+          @keyframes blinking {
+            from { border-color: transparent }
+            to { border-color: rgb(255, 81, 0); }
+          }
