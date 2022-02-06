@@ -1,26 +1,38 @@
-
-    .thick {
+.thick {
         font-weight: bold;
           }
-          .container{
-              display: inline-block;
-          }
-          .typed-out{
-              overflow: hidden;
-              border-right: .10em solid orange;
-              border-radius: 2px;
-              white-space: nowrap;
-              animation: 
-                typing 2s steps(20, end) forwards,
-                blinking 1s infinite;
-              font-size: 1.6rem;
-              width: 0;
-          }
-          @keyframes typing {
-            from { width: 0 }
-            to { width: 100% }
-          }
-          @keyframes blinking {
-            from { border-color: transparent }
-            to { border-color: rgb(255, 81, 0); }
-          }
+    .container{
+        display: inline-block;
+    }
+    .typed-out{
+        overflow: hidden;
+        border-right: .10em solid orange;
+        border-radius: 1px;
+        white-space: nowrap;
+        animation: 
+          typing 2s steps(20, end) forwards,
+          blinking 1s infinite;
+        font-size: 1.6rem;
+        width: 0;
+        
+    }
+    .typed-out2{
+      overflow: hidden;
+      border-right: .10em solid orange;
+      border-radius: 1px;
+      white-space: nowrap;  
+      animation: 
+        typing 2s steps(20, end) forwards,
+        blinking 1s infinite;
+      font-size: 1.6rem;
+      width: 0;
+      transition-delay: 2s;
+  }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    @keyframes blinking {
+      from { border-color: transparent }
+      to { border-color: rgb(255, 81, 0); }
+    } 
