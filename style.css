@@ -1,9 +1,11 @@
 p{
   align-items: center;
+
 }
 body{
   background-color: rgb(226, 226, 224);
-}
+  font-
+}                                                          
 * {
   box-sizing: border-box;
 }
@@ -13,13 +15,15 @@ h1 {
 a {
   text-decoration: none;
   font-weight: bold;
-  background: linear-gradient(135deg, rgb(0, 153, 229) 0%, rgba(0,130,200,1) 100%);
+  background: linear-gradient(135deg, #57a9c5 0%, #227096 100%);
   -webkit-background-clip: text;
   color: transparent;
 }
+
 html, body {
-  background: linear-gradient(135deg, rgb(200, 229, 239) 0%, rgb(51, 137, 183) 100%);
+  background: linear-gradient(135deg, #000428 0%, #487ead 100%);
   font-family: "Montserrat", Arial;
+  color: #bde27d;
 }
 .card {
   position: absolute;
