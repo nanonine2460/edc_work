@@ -15,9 +15,15 @@ h1 {
 a {
   text-decoration: none;
   font-weight: bold;
-  background: linear-gradient(135deg, #57a9c5 0%, #227096 100%);
+  background: linear-gradient(135deg, #67adc5 0%, #126d9a 100%);
   -webkit-background-clip: text;
+  background-clip: text ;
   color: transparent;
+
+  animation: move 3s linear infinite;
+  @keyframes move {
+    background-position: 200% center;
+  }
 }
 
 html, body {
