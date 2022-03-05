@@ -58,6 +58,40 @@
     <main id="content" class="main-content" role="main">
       
 <body>
+  <!-- Aniamted cursor Starts-->
+  <div class="cursor"></div>
+
+  <!-- <section class="main">
+    <h1>Cursor Animation</h1>
+  </section> -->
+
+  <script type="text/javascript">
+  const cursor = document.querySelector(".cursor");
+  var timeout;
+
+  //follow cursor on mousemove
+  document.addEventListener("mousemove", (e) => {
+    let x = e.pageX;
+    let y = e.pageY;
+
+    cursor.style.top = y + "px";
+    cursor.style.left = x + "px";
+    cursor.style.display = "block";
+
+    //cursor effects when mouse stopped
+    function mouseStopped(){
+      cursor.style.display = "none";
+    }
+    clearTimeout(timeout);
+    timeout = setTimeout(mouseStopped, 1000);
+  });
+
+  //cursor effects when mouseout
+  document.addEventListener("mouseout", () => {
+    cursor.style.display = "none";
+  });
+  </script>
+  <!-- Animated cursor ends -->
     <!-- <h1>Hey Guys! Welcome to Dhanno's Personal Webpage</h1> -->
     <hr /><hr />
     <p>I am <span class="thick">Dnyaneshwar More</span> aka Nanonine. Am Publicity Executive in eDC, IIT Delhi</p>
